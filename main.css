@@ -7,25 +7,62 @@ body {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 30px;
     font-family: "indivisible-variable", sans-serif;
     color: #5e4000;
     letter-spacing: 0.1em;
     padding-left: 1cm;
+    line-height: 40px;
 }
 
 a {
     font-size: 70px;
-    font-family: "indivisible-variable", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
     text-decoration: none;
     letter-spacing: 0.1em;
     color: white;
 }
 
-.card {
+.card-blue {
     display: block;
     background-color: #9bc6ea;
-    padding: 50px 30px;
-    width: 180px; 
-    height: 250px;
+    padding: 0px 30px;
+    padding-top: 130px;
+    width: 160px; 
+    height: 200px;
+}
+
+.card-green {
+    display: block;
+    background-color: #a0c18e;
+    padding: 0px 30px;
+    padding-top: 130px;
+    width: 160px; 
+    height: 200px;
+}
+
+.card-pink {
+    display: block;
+    background-color: #d0a4c6;
+    padding: 0px 30px;
+    padding-top: 130px;
+    width: 160px; 
+    height: 200px;
+}
+
+.card-yellow {
+    display: block;
+    background-color: #e5d570;
+    padding: 0px 30px;
+    padding-top: 130px;
+    width: 160px; 
+    height: 200px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    margin-left: 40px;
 }
