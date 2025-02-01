@@ -1,1 +1,20 @@
 
+body {
+    background-color: #be9b6e;
+    margin: 0;
+    padding: 3rem;
+    border: 10px solid #5e4000;
+    height: 130vh;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+h1 {
+    font-size: 70px;
+    letter-spacing: 0.03em;
+}
+
+p {
+    font-size: 20px;
+    line-height: 28px;
+}
